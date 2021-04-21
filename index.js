@@ -57,16 +57,16 @@ Person.prototype.toString = function(){
   return `${this.name}, ${this.age}`;
 };
 
+// const me = new Person("Ethan", 28);
+// for (let i = 0; i < 11; i++){
+//   me.eat("Pizza");
+//   console.log(me.stomach);
+// }
+// me.poop();
+// console.log(me.stomach);
 
-const me = new Person("Ethan", 28);
-for (let i = 0; i < 11; i++){
-  me.eat("Pizza");
-  console.log(me.stomach);
-}
-me.poop();
-console.log(me.stomach);
+// console.log(me.toString());
 
-console.log(me.toString());
   /*
     TASK 2
       - Write a Car constructor that initializes `model` and `milesPerGallon` from arguments.
@@ -101,13 +101,14 @@ Car.prototype.drive = function(distance){
     return null;
   }
 };
-const myCar = new Car("A flipping Koenigsegg with fancy rims", 30);
-console.log(myCar);
-myCar.fill(12);
-console.log(myCar.tank);
-console.log(myCar.drive(1000));
-console.log(myCar.tank);
-console.log(myCar.odometer);
+
+// const myCar = new Car("A flipping Koenigsegg with fancy rims", 30);
+// console.log(myCar);
+// myCar.fill(12);
+// console.log(myCar.tank);
+// console.log(myCar.drive(1000));
+// console.log(myCar.tank);
+// console.log(myCar.odometer);
 
   /*
     TASK 3
@@ -124,17 +125,15 @@ Baby.prototype = Object.create(Person.prototype);
 Baby.prototype.play = function (){
   return `Playing with ${this.favoriteToy}`;
 };
-const meAsABaby = new Baby("Ethan", 1, "Teddy");
-meAsABaby.eat("BabyFood");
-console.log(meAsABaby);
-meAsABaby.poop();
-console.log(meAsABaby);
-console.log(meAsABaby.toString());
-console.log(meAsABaby.play());
 
+// const meAsABaby = new Baby("Ethan", 1, "Teddy");
+// meAsABaby.eat("BabyFood");
+// console.log(meAsABaby);
+// meAsABaby.poop();
+// console.log(meAsABaby);
+// console.log(meAsABaby.toString());
+// console.log(meAsABaby.play());
 
- 
-  
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
