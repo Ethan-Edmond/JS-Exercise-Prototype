@@ -140,8 +140,8 @@ console.log(meAsABaby.play());
     In your own words explain the four principles for the "this" keyword below:
     1. new binding is when we use the new keyword to bind this to a new object
     2. implicit binding is when we bind this to the owner of a method when we call that method
-    3. explicit binding is when we bind
-    4. 
+    3. explicit binding is when we bind this to the thisarg of the call or bind method
+    4. global binding is when we this is still bound to the global scope and we either get window.this or undefined.this
   */
   
   
